@@ -27,6 +27,7 @@ modprobe -r zram
 ```
 root# chmod +x /etc/local.d/zram.start
 root# chmod +x /etc/local.d/zram.stop
+```
 
 ## reboot your system
 `root# reboot`
