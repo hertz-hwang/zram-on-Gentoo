@@ -1,4 +1,4 @@
-## Create /etc/local.d/zram.start to autostart with system startup when openRC initialized. (for example 16G zram)
+## Create /etc/local.d/zram.start to autostart with system startup when openRC initialized. (for example 16G zram0 and 16G zram1(xfs for /tmp))
 ```
 #!/bin/bash
 
