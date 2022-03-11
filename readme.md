@@ -42,7 +42,7 @@ root# chmod +x /etc/local.d/zram.stop
 ```
 
 ## Adding local service to startup(local service is enable by default for Gentoo, but for Alpine Linux user should do it)
-`root# rc-update add local default`
+`root# rc-update add local sysinit`
 
 ## restart local service
 `root# rc-service local restart`
