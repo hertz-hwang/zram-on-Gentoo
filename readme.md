@@ -46,3 +46,10 @@ root# chmod +x /etc/local.d/zram.stop
 
 ## restart local service
 `root# rc-service local restart`
+
+## Checking
+`grep zram /proc/swaps`
+> /dev/zram0                              partition       16777212        0      32767
+
+`grep zram /proc/mounts`
+> /dev/zram1 /tmp xfs rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota 0 0
